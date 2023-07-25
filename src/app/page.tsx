@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import TripSearch from "./components/TripSearch";
 
 export default function Home() {
   return (
-    <h1>Home Page</h1>
-  )
+    <div>
+      <TripSearch />
+    </div>
+  );
 }
